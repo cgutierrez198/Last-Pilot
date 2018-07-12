@@ -1,0 +1,338 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABC	SinglePlayerMenu.java	/^	private String ABC[]= {"A","B","C","D","E","F","G","H","I","J","K","L","M"};$/;"	f	class:SinglePlayerMenu	file:
+ABC2	SinglePlayerMenu.java	/^	private String ABC2[]= {"N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};$/;"	f	class:SinglePlayerMenu	file:
+ARROWS	HelpState.java	/^	private final Image ARROWS, NUMPAD0;$/;"	f	class:HelpState	file:
+Basic_Enemy	Basic_Enemy.java	/^	public Basic_Enemy(float x, float y, ID id, Handler handler) {$/;"	m	class:Basic_Enemy
+Basic_Enemy	Basic_Enemy.java	/^public class Basic_Enemy extends GameObject {$/;"	c
+Basic_Enemy	ID.java	/^	Basic_Enemy(),$/;"	e	enum:ID	file:
+CURRENCY	HelpState.java	/^	private final Image PLAYER, ENEMY, CURRENCY;$/;"	f	class:HelpState	file:
+Currency	Currency.java	/^	protected Currency(float x, float y, ID id, Handler handler,HUD hud){$/;"	m	class:Currency
+Currency	Currency.java	/^public class Currency extends GameObject{$/;"	c
+Currency	ID.java	/^	Currency(),$/;"	e	enum:ID	file:
+ENEMY	HelpState.java	/^	private final Image PLAYER, ENEMY, CURRENCY;$/;"	f	class:HelpState	file:
+Game	Game.java	/^		Game,$/;"	e	enum:Game.STATE	file:
+Game	Game.java	/^	public Game() throws Exception{$/;"	m	class:Game
+Game	Game.java	/^	public Game(int k){$/;"	m	class:Game
+Game	Game.java	/^public class Game extends Canvas implements Runnable{$/;"	c
+GameObject	GameObject.java	/^	public GameObject(float x , float y , ID id){$/;"	m	class:GameObject
+GameObject	GameObject.java	/^public abstract class GameObject {$/;"	c
+HEALTH	HUD.java	/^	public static int HEALTH = 100; $/;"	f	class:HUD
+HEIGHT	Game.java	/^	public static final int WIDTH = 640, HEIGHT = WIDTH \/ 12 * 9;$/;"	f	class:Game
+HUD	HUD.java	/^public class HUD implements Serializable{$/;"	c
+Handler	Handler.java	/^	public Handler(){$/;"	m	class:Handler
+Handler	Handler.java	/^public class Handler {$/;"	c
+Help	Game.java	/^		Help,$/;"	e	enum:Game.STATE	file:
+HelpState	HelpState.java	/^	public HelpState(Game game){$/;"	m	class:HelpState
+HelpState	HelpState.java	/^public class HelpState extends UIObject{$/;"	c
+ID	ID.java	/^public enum ID {$/;"	g
+IGMenu	Game.java	/^	private inGameMenu IGMenu;$/;"	f	class:Game	file:
+KeyInput	KeyInput.java	/^	public KeyInput(Handler handler,Game game,HUD hud){$/;"	m	class:KeyInput
+KeyInput	KeyInput.java	/^public class KeyInput extends KeyAdapter{$/;"	c
+Laser	ID.java	/^	Laser();$/;"	e	enum:ID	file:
+Laser	Laser.java	/^	public Laser(float x, float y, ID id,Handler handler,HUD hud) {$/;"	m	class:Laser
+Laser	Laser.java	/^public class Laser extends GameObject{$/;"	c
+LevelSelection	LevelSelection.java	/^	public LevelSelection(Game game, Handler handler,HUD hud) {$/;"	m	class:LevelSelection
+LevelSelection	LevelSelection.java	/^public class LevelSelection extends UIObject{$/;"	c
+MIDDLE_X	HelpState.java	/^	private  int MIDDLE_X =getHeight()\/2;$/;"	f	class:HelpState	file:
+Menu	Game.java	/^		Menu,$/;"	e	enum:Game.STATE	file:
+Menu	Menu.java	/^	public Menu(Game game, Handler handler){$/;"	m	class:Menu
+Menu	Menu.java	/^public class Menu extends UIObject{$/;"	c
+Missile	Missile.java	/^	protected Missile(float x, float y, ID id, Handler handler,HUD hud){$/;"	m	class:Missile
+Missile	Missile.java	/^public class Missile extends GameObject{$/;"	c
+Missle	ID.java	/^	Missle(),$/;"	e	enum:ID	file:
+Mx	HelpState.java	/^	private int Mx,My;$/;"	f	class:HelpState	file:
+Mx	Menu.java	/^	private int Mx,My;$/;"	f	class:Menu	file:
+Mx	UIObject.java	/^	protected int My,Mx;$/;"	f	class:UIObject
+My	HelpState.java	/^	private int Mx,My;$/;"	f	class:HelpState	file:
+My	Menu.java	/^	private int Mx,My;$/;"	f	class:Menu	file:
+My	UIObject.java	/^	protected int My,Mx;$/;"	f	class:UIObject
+NUMPAD0	HelpState.java	/^	private final Image ARROWS, NUMPAD0;$/;"	f	class:HelpState	file:
+PLAYER	HelpState.java	/^	private final Image PLAYER, ENEMY, CURRENCY;$/;"	f	class:HelpState	file:
+PassingStar	ID.java	/^	PassingStar(),$/;"	e	enum:ID	file:
+PassingStar	PassingStar.java	/^	public PassingStar(float x, float y, ID id, Handler handler) {$/;"	m	class:PassingStar
+PassingStar	PassingStar.java	/^public class PassingStar extends GameObject{$/;"	c
+Player	ID.java	/^	Player(),$/;"	e	enum:ID	file:
+Player	Player.java	/^	public Player(float x, float y, ID id,Handler handler){$/;"	m	class:Player
+Player	Player.java	/^public class Player extends GameObject{$/;"	c
+Player2	ID.java	/^	Player2(),$/;"	e	enum:ID	file:
+Player2	Player2.java	/^	public Player2(float x, float y, ID id){$/;"	m	class:Player2
+Player2	Player2.java	/^public class Player2 extends GameObject{$/;"	c
+SMenu	Game.java	/^	private ShopMenu SMenu;$/;"	f	class:Game	file:
+SPACE	HelpState.java	/^	private final Image WASD, SPACE;$/;"	f	class:HelpState	file:
+SPEED	Currency.java	/^	private final float SPEED = -1; \/\/ moves at 5 pixels per tick.$/;"	f	class:Currency	file:
+SPEED	Laser.java	/^	private final float SPEED = 5; \/\/missile moves at 5 pixels per tick.$/;"	f	class:Laser	file:
+SPEED	Missile.java	/^	private final float SPEED = 5; \/\/missile moves at 5 pixels per tick.$/;"	f	class:Missile	file:
+STATE	Game.java	/^	public enum STATE{$/;"	g	class:Game
+ShopMenu	ShopMenu.java	/^	public ShopMenu(Game game,HUD hud) {$/;"	m	class:ShopMenu
+ShopMenu	ShopMenu.java	/^public class ShopMenu extends UIObject{$/;"	c
+SinglePlayerMenu	SinglePlayerMenu.java	/^	public SinglePlayerMenu(Game game,Handler handler,HUD hud) {$/;"	m	class:SinglePlayerMenu
+SinglePlayerMenu	SinglePlayerMenu.java	/^public class SinglePlayerMenu extends UIObject  {$/;"	c
+Spawn	Spawn.java	/^	public Spawn (Handler handler,HUD hud){$/;"	m	class:Spawn
+Spawn	Spawn.java	/^public class Spawn {$/;"	c
+Track_Enemy	ID.java	/^	Track_Enemy(),$/;"	e	enum:ID	file:
+Track_Enemy	Track_Enemy.java	/^	public Track_Enemy(float x, float y, ID id, Handler handler) {$/;"	m	class:Track_Enemy
+Track_Enemy	Track_Enemy.java	/^public class Track_Enemy extends GameObject {$/;"	c
+Trail	ID.java	/^	Trail(),$/;"	e	enum:ID	file:
+Trail	Trail.java	/^	public Trail(float x, float y, ID id, Color color,float width, float height,float life , Handler handler) {$/;"	m	class:Trail
+Trail	Trail.java	/^public class Trail extends GameObject{$/;"	c
+TripleShot	ShopMenu.java	/^	private Image missile,laser,doubleShot,TripleShot;$/;"	f	class:ShopMenu	file:
+UIObject	UIObject.java	/^	public UIObject(Game game){$/;"	m	class:UIObject
+UIObject	UIObject.java	/^public abstract class UIObject extends MouseAdapter{$/;"	c
+WASD	HelpState.java	/^	private final Image WASD, SPACE;$/;"	f	class:HelpState	file:
+WIDTH	Game.java	/^	public static final int WIDTH = 640, HEIGHT = WIDTH \/ 12 * 9;$/;"	f	class:Game
+Window	Window.java	/^	public Window(int width,int height, String title,Game game){$/;"	m	class:Window
+Window	Window.java	/^public class Window extends Canvas{$/;"	c
+abc	SinglePlayerMenu.java	/^	private String abc[] = {"a","b","c","d","e","f","g","h","i","j","k","l","m"};$/;"	f	class:SinglePlayerMenu	file:
+abc2	SinglePlayerMenu.java	/^	private String abc2[]={"n","o","p","q","r","s","t","u","v","w","x","y","z"};$/;"	f	class:SinglePlayerMenu	file:
+addObject	Handler.java	/^	public void addObject(GameObject object){$/;"	m	class:Handler
+alpha	Trail.java	/^	private float alpha = 1;$/;"	f	class:Trail	file:
+background	Game.java	/^	private Image background;$/;"	f	class:Game	file:
+background	HelpState.java	/^	private Image background;$/;"	f	class:HelpState	file:
+bgX	Game.java	/^	private int bgX,bgY;$/;"	f	class:Game	file:
+bgX	HelpState.java	/^	private int bgX,bgY;$/;"	f	class:HelpState	file:
+bgX	UIObject.java	/^	private int bgX,bgY;$/;"	f	class:UIObject	file:
+bgY	Game.java	/^	private int bgX,bgY;$/;"	f	class:Game	file:
+bgY	HelpState.java	/^	private int bgX,bgY;$/;"	f	class:HelpState	file:
+bgY	UIObject.java	/^	private int bgX,bgY;$/;"	f	class:UIObject	file:
+bkgCount	Game.java	/^	private int bkgCount;$/;"	f	class:Game	file:
+bkgString	Game.java	/^	private String bkgString[]= new String[6];$/;"	f	class:Game	file:
+clamp	Game.java	/^	public static int clamp(int var, int min, int max){$/;"	m	class:Game
+click2	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+clicked	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+collision	Currency.java	/^	private void collision(){$/;"	m	class:Currency	file:
+collision	Laser.java	/^	private void collision(){$/;"	m	class:Laser	file:
+collision	Missile.java	/^	private void collision(){$/;"	m	class:Missile	file:
+collision	Player.java	/^	private void collision(){$/;"	m	class:Player	file:
+color	Trail.java	/^	private Color color;$/;"	f	class:Trail	file:
+credit	HUD.java	/^	public int credit = 0;$/;"	f	class:HUD
+displayClick	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+displayRelease	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+doubleShot	ShopMenu.java	/^	private Image missile,laser,doubleShot,TripleShot;$/;"	f	class:ShopMenu	file:
+fired	Player.java	/^	private boolean fired;$/;"	f	class:Player	file:
+game	KeyInput.java	/^	private Game game;$/;"	f	class:KeyInput	file:
+game	UIObject.java	/^	protected Game game;$/;"	f	class:UIObject
+gameState	Game.java	/^	public STATE gameState = STATE.Menu;$/;"	f	class:Game
+getBounds	Basic_Enemy.java	/^	public Rectangle getBounds() {$/;"	m	class:Basic_Enemy
+getBounds	Currency.java	/^	public Rectangle getBounds() {$/;"	m	class:Currency
+getBounds	GameObject.java	/^	public abstract Rectangle getBounds();$/;"	m	class:GameObject
+getBounds	Laser.java	/^	public Rectangle getBounds() {$/;"	m	class:Laser
+getBounds	Missile.java	/^	public Rectangle getBounds() {$/;"	m	class:Missile
+getBounds	PassingStar.java	/^	public Rectangle getBounds() {$/;"	m	class:PassingStar
+getBounds	Player.java	/^	public Rectangle getBounds(){$/;"	m	class:Player
+getBounds	Player2.java	/^	public Rectangle getBounds() {$/;"	m	class:Player2
+getBounds	Track_Enemy.java	/^	public Rectangle getBounds() {$/;"	m	class:Track_Enemy
+getBounds	Trail.java	/^	public Rectangle getBounds() {$/;"	m	class:Trail
+getCredit	HUD.java	/^	public void getCredit(int score){this.score=score;}$/;"	m	class:HUD
+getHeight	UIObject.java	/^	protected int getHeight(){return game.getHeight();}$/;"	m	class:UIObject
+getID	GameObject.java	/^	public ID getID()			{return id;}$/;"	m	class:GameObject
+getLevel	HUD.java	/^	public int getLevel(){return level;}$/;"	m	class:HUD
+getMx	UIObject.java	/^	public int getMx(){return Mx;}$/;"	m	class:UIObject
+getMy	UIObject.java	/^	public int getMy(){return Mx;}$/;"	m	class:UIObject
+getName	HUD.java	/^	public String getName(){return name;}$/;"	m	class:HUD
+getScore	HUD.java	/^	public int getScore(){return score;}$/;"	m	class:HUD
+getState	UIObject.java	/^	protected STATE getState(){return game.gameState;}$/;"	m	class:UIObject
+getVelX	GameObject.java	/^	public float getVelX()		{return velX;}$/;"	m	class:GameObject
+getVelY	GameObject.java	/^	public float getVelY()		{return velY;}$/;"	m	class:GameObject
+getWidth	UIObject.java	/^	protected int getWidth(){return game.getWidth();}$/;"	m	class:UIObject
+getx	GameObject.java	/^	public float getx()			{return x;}$/;"	m	class:GameObject
+gety	GameObject.java	/^	public float gety()			{return y;}$/;"	m	class:GameObject
+greenValue	HUD.java	/^	public static int greenValue = 255;$/;"	f	class:HUD
+handler	Basic_Enemy.java	/^	Handler handler;$/;"	f	class:Basic_Enemy
+handler	Currency.java	/^	private Handler handler;$/;"	f	class:Currency	file:
+handler	Game.java	/^	private Handler handler;$/;"	f	class:Game	file:
+handler	KeyInput.java	/^	private Handler handler;$/;"	f	class:KeyInput	file:
+handler	Laser.java	/^	private Handler handler;$/;"	f	class:Laser	file:
+handler	LevelSelection.java	/^	private Handler handler;$/;"	f	class:LevelSelection	file:
+handler	Missile.java	/^	private Handler handler;$/;"	f	class:Missile	file:
+handler	PassingStar.java	/^	Handler handler;$/;"	f	class:PassingStar
+handler	Player.java	/^	Handler  handler;$/;"	f	class:Player
+handler	SinglePlayerMenu.java	/^	private Handler handler;$/;"	f	class:SinglePlayerMenu	file:
+handler	Spawn.java	/^	private Handler handler;$/;"	f	class:Spawn	file:
+handler	Track_Enemy.java	/^	Handler handler;$/;"	f	class:Track_Enemy
+handler	Trail.java	/^	private Handler handler;$/;"	f	class:Trail	file:
+height	SinglePlayerMenu.java	/^	private int topBoundx,topBoundy,width,height;$/;"	f	class:SinglePlayerMenu	file:
+height	Trail.java	/^	private float height, width;$/;"	f	class:Trail	file:
+help	Game.java	/^	private HelpState help;$/;"	f	class:Game	file:
+hud	Currency.java	/^	private HUD hud;$/;"	f	class:Currency	file:
+hud	Game.java	/^	public HUD hud;$/;"	f	class:Game
+hud	KeyInput.java	/^	private HUD hud;$/;"	f	class:KeyInput	file:
+hud	Laser.java	/^	private HUD hud;$/;"	f	class:Laser	file:
+hud	LevelSelection.java	/^	private HUD hud;$/;"	f	class:LevelSelection	file:
+hud	Missile.java	/^	private HUD hud;$/;"	f	class:Missile	file:
+hud	ShopMenu.java	/^	private HUD hud;$/;"	f	class:ShopMenu	file:
+hud	SinglePlayerMenu.java	/^	private HUD hud;$/;"	f	class:SinglePlayerMenu	file:
+hud	Spawn.java	/^	private HUD hud;$/;"	f	class:Spawn	file:
+id	GameObject.java	/^	protected ID id;$/;"	f	class:GameObject
+inGameMenu	inGameMenu.java	/^	public inGameMenu(Game game) {$/;"	m	class:inGameMenu
+inGameMenu	inGameMenu.java	/^public class inGameMenu extends UIObject {$/;"	c
+inputTest	Game.java	/^	public void inputTest(){$/;"	m	class:Game
+instantiateAndset	Game.java	/^	public void instantiateAndset(){$/;"	m	class:Game
+isDownToBottomEdge	Game.java	/^	public boolean isDownToBottomEdge(){$/;"	m	class:Game
+isToLeftEdge	Game.java	/^	public boolean isToLeftEdge(){$/;"	m	class:Game
+isToRightEdge	Game.java	/^	public boolean isToRightEdge(){$/;"	m	class:Game
+isUpToTopEdge	Game.java	/^	public boolean isUpToTopEdge(){$/;"	m	class:Game
+iscurrentState	LevelSelection.java	/^private Boolean iscurrentState(){return getState()==STATE.levelSet;}$/;"	m	class:LevelSelection	file:
+keyDown	KeyInput.java	/^	private Boolean[] keyDown = new Boolean[4];$/;"	f	class:KeyInput	file:
+keyPressed	KeyInput.java	/^	public void keyPressed(KeyEvent e){$/;"	m	class:KeyInput
+keyReleased	KeyInput.java	/^	public void keyReleased(KeyEvent e){$/;"	m	class:KeyInput
+keyinputs	Game.java	/^	public void keyinputs(int key){$/;"	m	class:Game
+laser	ShopMenu.java	/^	private Image missile,laser,doubleShot,TripleShot;$/;"	f	class:ShopMenu	file:
+lastPilot	Basic_Enemy.java	/^package lastPilot;$/;"	p
+lastPilot	Currency.java	/^package lastPilot;$/;"	p
+lastPilot	Game.java	/^package lastPilot;$/;"	p
+lastPilot	GameObject.java	/^package lastPilot;$/;"	p
+lastPilot	HUD.java	/^package lastPilot;$/;"	p
+lastPilot	Handler.java	/^package lastPilot;$/;"	p
+lastPilot	HelpState.java	/^package lastPilot;$/;"	p
+lastPilot	ID.java	/^package lastPilot;$/;"	p
+lastPilot	KeyInput.java	/^package lastPilot;$/;"	p
+lastPilot	Laser.java	/^package lastPilot;$/;"	p
+lastPilot	LevelSelection.java	/^package lastPilot;$/;"	p
+lastPilot	Menu.java	/^package lastPilot;$/;"	p
+lastPilot	Missile.java	/^package lastPilot;$/;"	p
+lastPilot	PassingStar.java	/^package lastPilot;$/;"	p
+lastPilot	Player.java	/^package lastPilot;$/;"	p
+lastPilot	Player2.java	/^package lastPilot;$/;"	p
+lastPilot	ShopMenu.java	/^package lastPilot;$/;"	p
+lastPilot	SinglePlayerMenu.java	/^package lastPilot;$/;"	p
+lastPilot	Spawn.java	/^package lastPilot;$/;"	p
+lastPilot	Track_Enemy.java	/^package lastPilot;$/;"	p
+lastPilot	Trail.java	/^package lastPilot;$/;"	p
+lastPilot	UIObject.java	/^package lastPilot;$/;"	p
+lastPilot	Window.java	/^package lastPilot;$/;"	p
+lastPilot	inGameMenu.java	/^package lastPilot;$/;"	p
+level	HUD.java	/^	public int level = 1;$/;"	f	class:HUD
+levelSet	Game.java	/^		levelSet,$/;"	e	enum:Game.STATE	file:
+levelSet	Game.java	/^	private LevelSelection levelSet;$/;"	f	class:Game	file:
+life	Trail.java	/^	private float life;$/;"	f	class:Trail	file:
+load	HUD.java	/^	public static HUD load(String fileName)throws IOException, ClassNotFoundException{$/;"	m	class:HUD
+loadMenu	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+main	Game.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:Game
+makeTransparent	Trail.java	/^	private AlphaComposite makeTransparent (float alpha){$/;"	m	class:Trail	file:
+menu	Game.java	/^	private Menu menu;$/;"	f	class:Game	file:
+missile	ShopMenu.java	/^	private Image missile,laser,doubleShot,TripleShot;$/;"	f	class:ShopMenu	file:
+mouseMoved	HelpState.java	/^	public void mouseMoved(MouseEvent e){$/;"	m	class:HelpState
+mouseMoved	LevelSelection.java	/^	public void mouseMoved(MouseEvent e){$/;"	m	class:LevelSelection
+mouseMoved	Menu.java	/^	public void mouseMoved(MouseEvent e){$/;"	m	class:Menu
+mouseMoved	SinglePlayerMenu.java	/^	public void mouseMoved(MouseEvent e){$/;"	m	class:SinglePlayerMenu
+mouseMoved	UIObject.java	/^	public void mouseMoved(MouseEvent e){$/;"	m	class:UIObject
+mouseOver	UIObject.java	/^	public boolean mouseOver(int mx, int my, int x, int y,int width, int height){$/;"	m	class:UIObject
+mousePressed	LevelSelection.java	/^	public void mousePressed(MouseEvent e){$/;"	m	class:LevelSelection
+mousePressed	Menu.java	/^	public void mousePressed(MouseEvent e){$/;"	m	class:Menu
+mousePressed	ShopMenu.java	/^	public void mousePressed(MouseEvent e){$/;"	m	class:ShopMenu
+mousePressed	SinglePlayerMenu.java	/^	public void mousePressed(MouseEvent e){$/;"	m	class:SinglePlayerMenu
+mousePressed	UIObject.java	/^	public void mousePressed(MouseEvent e){$/;"	m	class:UIObject
+mouseReleased	Menu.java	/^	public void mouseReleased(MouseEvent e){$/;"	m	class:Menu
+mouseReleased	SinglePlayerMenu.java	/^	public void mouseReleased(MouseEvent e){$/;"	m	class:SinglePlayerMenu
+mouseStart	Game.java	/^	public void mouseStart(){$/;"	m	class:Game
+movingBkg	Game.java	/^	private void movingBkg(){$/;"	m	class:Game	file:
+name	HUD.java	/^	public String name;$/;"	f	class:HUD
+name	SinglePlayerMenu.java	/^	ArrayList<String> name = new ArrayList<String>();$/;"	f	class:SinglePlayerMenu
+nameClick	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+namePressedMethod	SinglePlayerMenu.java	/^	private void namePressedMethod(){$/;"	m	class:SinglePlayerMenu	file:
+nameRelease	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+nameReleaseMethod	SinglePlayerMenu.java	/^	private void nameReleaseMethod(){$/;"	m	class:SinglePlayerMenu	file:
+newUser	SinglePlayerMenu.java	/^	private boolean clicked, click2,loadMenu,newUser,nameClick,nameRelease,displayClick,displayRelease;$/;"	f	class:SinglePlayerMenu	file:
+object	Handler.java	/^	LinkedList<GameObject> object = new LinkedList<GameObject>();$/;"	f	class:Handler
+player	Basic_Enemy.java	/^	GameObject player;$/;"	f	class:Basic_Enemy
+player	PassingStar.java	/^	GameObject player;$/;"	f	class:PassingStar
+player	Track_Enemy.java	/^	GameObject player;$/;"	f	class:Track_Enemy
+r	Game.java	/^	private Random r;$/;"	f	class:Game	file:
+r	PassingStar.java	/^	private Random r;$/;"	f	class:PassingStar	file:
+r	Spawn.java	/^	private Random r ;$/;"	f	class:Spawn	file:
+r	Track_Enemy.java	/^	Random r;$/;"	f	class:Track_Enemy
+removeObject	Handler.java	/^	public void removeObject(GameObject object){$/;"	m	class:Handler
+render	Basic_Enemy.java	/^	public void render(Graphics g) {$/;"	m	class:Basic_Enemy
+render	Currency.java	/^	public void render(Graphics g){$/;"	m	class:Currency
+render	Game.java	/^	private void render(){$/;"	m	class:Game	file:
+render	GameObject.java	/^	public abstract void render(Graphics g);$/;"	m	class:GameObject
+render	HUD.java	/^	public void render( Graphics g){$/;"	m	class:HUD
+render	Handler.java	/^	public void render(Graphics g){$/;"	m	class:Handler
+render	HelpState.java	/^	public void render(Graphics g){$/;"	m	class:HelpState
+render	Laser.java	/^	public void render(Graphics g) {$/;"	m	class:Laser
+render	LevelSelection.java	/^	public void render(Graphics g) {$/;"	m	class:LevelSelection
+render	Menu.java	/^	public void render(Graphics g){$/;"	m	class:Menu
+render	Missile.java	/^	public void render(Graphics g){$/;"	m	class:Missile
+render	PassingStar.java	/^	public void render(Graphics g) {$/;"	m	class:PassingStar
+render	Player.java	/^	public void render(Graphics g) {$/;"	m	class:Player
+render	Player2.java	/^	public void render(Graphics g) {$/;"	m	class:Player2
+render	ShopMenu.java	/^	public void render(Graphics g) {$/;"	m	class:ShopMenu
+render	SinglePlayerMenu.java	/^	public void render(Graphics g) {$/;"	m	class:SinglePlayerMenu
+render	Track_Enemy.java	/^	public void render(Graphics g) {$/;"	m	class:Track_Enemy
+render	Trail.java	/^	public void render(Graphics g) {$/;"	m	class:Trail
+render	UIObject.java	/^	public abstract void render(Graphics g);$/;"	m	class:UIObject
+render	inGameMenu.java	/^	public void render(Graphics g) {$/;"	m	class:inGameMenu
+run	Game.java	/^public void run() {$/;"	m	class:Game
+running	Game.java	/^	private boolean running = false;$/;"	f	class:Game	file:
+save	HUD.java	/^	public void save(String fileName) throws IOException{$/;"	m	class:HUD
+score	HUD.java	/^	public int score = 0;$/;"	f	class:HUD
+scoreKeep	Spawn.java	/^	private int scoreKeep = 0;$/;"	f	class:Spawn	file:
+serialVersionUID	Game.java	/^	private static final long serialVersionUID = -1380302599731714594L;$/;"	f	class:Game	file:
+serialVersionUID	HUD.java	/^	private static final long serialVersionUID = 552463283493821578L;$/;"	f	class:HUD	file:
+serialVersionUID	Window.java	/^	private static final long serialVersionUID = -2666735422866980501L;$/;"	f	class:Window	file:
+setCredit	HUD.java	/^	public int setCredit(){return credit;}$/;"	m	class:HUD
+setID	GameObject.java	/^	public void setID(ID id)	{this.id = id;}$/;"	m	class:GameObject
+setLevel	HUD.java	/^	public void setLevel(int level){this.level=level;}$/;"	m	class:HUD
+setMx	UIObject.java	/^	public void setMx(int Mx){this.Mx = Mx;}$/;"	m	class:UIObject
+setMy	UIObject.java	/^	public void setMy(int My){this.My = My;}$/;"	m	class:UIObject
+setName	HUD.java	/^	public void setName(String name){this.name = name;}$/;"	m	class:HUD
+setScore	HUD.java	/^	public void setScore(int score){this.score=score;}$/;"	m	class:HUD
+setState	UIObject.java	/^	protected void setState(STATE state){game.gameState = state;}$/;"	m	class:UIObject
+setVelX	GameObject.java	/^	public void setVelX(float x)	{this.velX = x;}$/;"	m	class:GameObject
+setVelY	GameObject.java	/^	public void setVelY(float y)	{this.velY = y;}$/;"	m	class:GameObject
+setx	GameObject.java	/^	public void setx(float x)		{this.x = x;}$/;"	m	class:GameObject
+sety	GameObject.java	/^	public void sety(float y)		{this.y = y;}$/;"	m	class:GameObject
+shop	Game.java	/^		shop;$/;"	e	enum:Game.STATE	file:
+single	Game.java	/^	private SinglePlayerMenu single;$/;"	f	class:Game	file:
+singleMenu	Game.java	/^		singleMenu,$/;"	e	enum:Game.STATE	file:
+spawner	Game.java	/^	private Spawn spawner;$/;"	f	class:Game	file:
+sprite	Currency.java	/^	private final Image sprite;$/;"	f	class:Currency	file:
+sprite	Laser.java	/^	private final Image sprite;$/;"	f	class:Laser	file:
+sprite	Missile.java	/^	private final Image sprite;$/;"	f	class:Missile	file:
+star	PassingStar.java	/^	private Image star;$/;"	f	class:PassingStar	file:
+start	Game.java	/^	public synchronized void start(){$/;"	m	class:Game
+startGame	LevelSelection.java	/^private void startGame(){$/;"	m	class:LevelSelection	file:
+stop	Game.java	/^	public synchronized void stop(){$/;"	m	class:Game
+testCount	Game.java	/^	private static int testCount;$/;"	f	class:Game	file:
+testX	Player.java	/^	public static float testX;$/;"	f	class:Player
+testY	Player.java	/^	public static float testY;$/;"	f	class:Player
+testingInputs	Game.java	/^	public static boolean testingInputs = false;$/;"	f	class:Game
+thread	Game.java	/^	private Thread thread;$/;"	f	class:Game	file:
+tick	Basic_Enemy.java	/^	public void tick() {$/;"	m	class:Basic_Enemy
+tick	Currency.java	/^	public void tick() {$/;"	m	class:Currency
+tick	Game.java	/^	private void tick(){$/;"	m	class:Game	file:
+tick	GameObject.java	/^	public abstract  void tick();$/;"	m	class:GameObject
+tick	HUD.java	/^	public void tick(){$/;"	m	class:HUD
+tick	Handler.java	/^	public void tick(){$/;"	m	class:Handler
+tick	HelpState.java	/^	public void tick() {$/;"	m	class:HelpState
+tick	Laser.java	/^	public void tick() {$/;"	m	class:Laser
+tick	LevelSelection.java	/^	public void tick() {$/;"	m	class:LevelSelection
+tick	Menu.java	/^	public void tick(){$/;"	m	class:Menu
+tick	Missile.java	/^	public void tick() {$/;"	m	class:Missile
+tick	PassingStar.java	/^	public void tick() {$/;"	m	class:PassingStar
+tick	Player.java	/^	public void tick() {$/;"	m	class:Player
+tick	Player2.java	/^	public void tick() {$/;"	m	class:Player2
+tick	ShopMenu.java	/^	public void tick() {$/;"	m	class:ShopMenu
+tick	SinglePlayerMenu.java	/^	public void tick() {$/;"	m	class:SinglePlayerMenu
+tick	Spawn.java	/^	public void tick(){$/;"	m	class:Spawn
+tick	Track_Enemy.java	/^	public void tick() {$/;"	m	class:Track_Enemy
+tick	Trail.java	/^	public void tick() {$/;"	m	class:Trail
+tick	UIObject.java	/^	public abstract void tick();$/;"	m	class:UIObject
+tick	inGameMenu.java	/^	public void tick() {$/;"	m	class:inGameMenu
+topBoundx	SinglePlayerMenu.java	/^	private int topBoundx,topBoundy,width,height;$/;"	f	class:SinglePlayerMenu	file:
+topBoundy	SinglePlayerMenu.java	/^	private int topBoundx,topBoundy,width,height;$/;"	f	class:SinglePlayerMenu	file:
+userName	SinglePlayerMenu.java	/^	private String userName;$/;"	f	class:SinglePlayerMenu	file:
+velX	GameObject.java	/^	protected float velX, velY;$/;"	f	class:GameObject
+velY	GameObject.java	/^	protected float velX, velY;$/;"	f	class:GameObject
+width	Currency.java	/^	private int width;$/;"	f	class:Currency	file:
+width	Laser.java	/^	private int width;$/;"	f	class:Laser	file:
+width	Missile.java	/^	private int width;$/;"	f	class:Missile	file:
+width	SinglePlayerMenu.java	/^	private int topBoundx,topBoundy,width,height;$/;"	f	class:SinglePlayerMenu	file:
+width	Trail.java	/^	private float height, width;$/;"	f	class:Trail	file:
+x	GameObject.java	/^	protected float x,y;$/;"	f	class:GameObject
+y	GameObject.java	/^	protected float x,y;$/;"	f	class:GameObject
